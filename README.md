@@ -10,6 +10,9 @@ This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) [Bower]
 
 2. Build image.
 docker build -t gulp .
+```sh
+	docker build -t gulp .
+```
 
 ### Usage
 
@@ -21,6 +24,8 @@ This image assumes that your application:
 
 Run:
 
-docker run -it --rm --name npm -v "$PWD":/var/www -w /var/www gulp npm install
-docker run -it --rm --name bower -v "$PWD":/var/www -w /var/www gulp bower install --allow-root
-docker run -it --rm --name gulp -v "$PWD":/var/www -w /var/www gulp gulp
+```sh
+	docker run -it --rm --name npm -v "$PWD":/var/www -w /var/www gulp npm install
+	docker run -it --rm --name bower -v "$PWD":/var/www -w /var/www gulp bower install --allow-root
+	docker run -it --rm --name gulp -v "$PWD":/var/www -w /var/www gulp gulp
+```
