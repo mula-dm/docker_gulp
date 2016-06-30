@@ -9,7 +9,7 @@ This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) [Bower]
 1. Install [Docker](https://www.docker.com/).
 
 2. Build image.
-docker build -t gulp .
+
 ```sh
 	docker build -t gulp .
 ```
